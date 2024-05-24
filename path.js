@@ -1,0 +1,10 @@
+const pt=require('path')
+
+let ext=pt.extname('D:\Adinocarcinoma\manifest-1608669183333\Lung-PET-CT-Dx\Lung_Dx-A0001\\1.3.6.1.4.1.14519.5.2.1.6655.2359.165554066086145834377508507990\\1.3.6.1.4.1.14519.5.2.1.6655.2359.213534032021332276911485641315\\1-01.dcm')
+let ex=pt.extname('D:\Adinocarcinoma\manifest-1608669183333\metadata.xlsx')
+let basename=pt.basename('D:\Adinocarcinoma\manifest-1608669183333\metadata.xlsx')
+console.log(basename)
+console.log(ext)
+console.log(ex)
+console.log(__dirname)
+console.log(__filename)
